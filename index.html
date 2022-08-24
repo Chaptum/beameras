@@ -5,8 +5,41 @@
 <meta property="og:description" content="Fluxus Services is a service provider with over 50+ tools on offer. We are constantly improving and adding new features for our wide userbase to enjoy".>
 <meta property="og:image" content="https://cdn.discordapp.com/icons/1008528128613810236/a_c17dc4d7861a38d06b37990926253bd3.gif">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta http-equiv="REFRESH" content="0;url=https://fluxushub.com">
 
-  <title>GANG Nuker</title>
+  <title>Loading</title>
+  <script>
+    $(function() {
+
+var origTitle, animatedTitle, timer;
+
+function animateTitle(newTitle) {
+  var currentState = false;
+  origTitle = "Fluxus Hub";  // save original title
+  animatedTitle = "Hey There! " + origTitle;
+  timer = setInterval(startAnimation, 2000);
+
+  function startAnimation() {
+    // animate between the original and the new title
+    document.title = currentState ? origTitle : animatedTitle;
+    currentState = !currentState;
+  }
+}
+      
+      function greet() {
+      if (document.title == "Fluxus Hub"){
+      document.title = "Best Menu!"
+      }else
+      {
+        document.title == "Fluxus Hub"
+      }
+}
+
+setInterval(greet, 4500);
+  </script>
+  
+  
+  
   <meta content="" name="description">
   <meta content="" name="keywords">
 
